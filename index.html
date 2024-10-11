@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="overflow: hidden;" id="body">
+    <div style="display: flex;">
+        <button onclick="Save()">Save</button>
+        <label for="NameInput">Document Name</label>
+        <input id="NameInput" type="text">
+        <label for="FontSize">Font Size</label>
+        <input id="FontSize" type="number">
+    </div>
+    <div id="TextHolder" class="TextHolder">
+        <p style="margin-left: 10px;" id="text"></p>
+    </div>
+
+<script src="scripts/type.js"></script>    
+</body>
+</html>

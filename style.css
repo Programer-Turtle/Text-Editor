@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.cursor {
+    display: inline-block;
+    width: 1px;
+    padding: 0%;
+    height: 1em;
+    margin: 0%;
+    background-color: black;
+    animation: blink 1s step-start infinite;
+    vertical-align: bottom;
+}
+
+@keyframes blink {
+    50% {
+      opacity: 100;
+    }
+
+    100%{
+        opacity: 0;
+    }
+
+
+}
+
+p{
+    font-family: monospace;
+    font-size: 20px;
+    white-space:pre-wrap;
+}
+
+.TextHolder{
+    width: 100vw;
+    border-top-color: black;
+    border-top-style: solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
